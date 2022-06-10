@@ -1,0 +1,68 @@
+<!-- Personaggi -->
+<!DOCTYPE html> 
+<html lang="it">
+
+ <head>
+   <title>I personaggi di Arcane</title>
+   <meta charset="UTF-8">
+   <script src="personaggi.js"></script>
+   <link rel="stylesheet" href="stili.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+ </head>
+
+ <body>
+
+   <header>
+     <!-- Logo -->
+     <a href="index.html">
+     <img src="images/logo.png" alt="Logo di Arcane">
+     </a>
+     <!-- Menu di navigazione -->
+     <nav>
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="personaggi.html" id="active">Personaggi</a></li>
+         <li><a href="luoghi.html">Luoghi</a></li>
+         <li><a href="about.html">About</a></li>
+       </ul>
+     </nav>
+   </header>
+
+   <!-- Titolo -->
+   <main id="personaggi">
+     <div id="div3">
+       <h1><span>I PERSONAGGI</span></h1>
+     </div>
+     <!-- Galleria dei personaggi -->
+     <article>
+       <h2>SCOPRI I PROTAGONISTI DEL MONDO DI ARCANE</h2>
+       <h3>Scorri la galleria con gli appositi pulsanti e immergiti nelle loro storie!</h3>
+       <div id="div4">
+         <img id="foto" src="images/jinx.jpg" alt="Immagine del personaggio">
+         <div id="div5">
+           <input type="button" value="&lt;" id="indietro"/>
+           <input type="button" value="Scorri automaticamente" id="startStop"/>
+           <input type="button" value=">" id="avanti"/>
+         </div>
+       </div>
+       <div id="div6">
+         <br />
+         <span id="nomi"></span>
+         <br />
+         <span id="descrizioni"></span>
+       </div>
+     </article>
+    </main>
+
+    <!-- Informazioni personali -->
+    <footer>
+      <p>Design by Jacopo Campanella Galanti</p>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="CSS Valido!">
+      </a>
+    </footer>
+
+  </body>
+
+</html>
