@@ -368,7 +368,7 @@ footer img {
 @media screen and (min-width: 480px) {
   body { font-size: 17px; }
   
-  #home #div1, #personaggi #div3, #luoghi #div7 { margin-top: 150.75px }
+  #home #div1, #personaggi #div3, #luoghi #div7 { margin-top: 150.75px; }
 
   #luoghi #foto img { max-width: 100%; }
 
