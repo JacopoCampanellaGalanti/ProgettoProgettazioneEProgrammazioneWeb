@@ -19,7 +19,7 @@
          nodo.style.animation = "slideIn 3s";
 /**/}
 
-//funzione che restituisce il contenuto in base all'area cliccata
+//Funzione che restituisce il contenuto in base all'area cliccata
 /**/function gestoreClickArea() {
 /**/
 /**/  try {
