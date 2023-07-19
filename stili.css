@@ -8,7 +8,7 @@ body {
   width: 100%;
   font-family: Verdana, Tahoma, sans-serif;
   line-height: 1.5;
-  position: absolute
+  position: absolute;
 }
 
 /* Header */
@@ -22,20 +22,20 @@ header {
   z-index: 99;
   justify-content: space-around;
   width: 100%;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 } 
 
 header a { 
   height: 75px; 
   margin: 10px;
-  font-size: 1.4em
+  font-size: 1.4em;
 }
 
-header img { height: inherit }
+header img { height: inherit; }
 
 header a:first-of-type:hover {
   transition: 0.7s; 
-  transform: scale(1.2)
+  transform: scale(1.2);
 }
 
 header ul {
@@ -44,12 +44,12 @@ header ul {
   padding: 0px;
   margin: auto;
   font-weight: bold;
-  font-style: oblique
+  font-style: oblique;
 }
 
 header a:link, header a:visited { 
   color: black; 
-  text-decoration: none 
+  text-decoration: none; 
 }
 
 header a:hover, header #active {
@@ -59,18 +59,18 @@ header a:hover, header #active {
 
 header li:hover {
   transition: 0.7s; 
-  transform: scale(1.2)
+  transform: scale(1.2);
 }
 
-header li { padding: 1px }
+header li { padding: 1px; }
 
 /* Main */
 
-main { background-color: white }
+main { background-color: white; }
 
 main h1 { 
   text-align: center;
-  animation: fadeIn 4s
+  animation: fadeIn 4s;
 }
 
 @keyframes fadeIn {
@@ -87,51 +87,51 @@ main h1 {
 main h2, main h3 { 
   text-align: center;
   margin-left: 10px;
-  margin-right: 10px
+  margin-right: 10px;
 }
 
-main article { margin-bottom: 30px }
+main article { margin-bottom: 30px; }
 
 main #nomi { 
   display: block;
   text-align: center;
   font-weight: bold;
-  font-size: 1.3em
+  font-size: 1.3em;
 }
 
-main p { margin: 15px }
+main p { margin: 15px; }
 
 main #descrizioni { 
   display: block;
-  margin: 15px 
+  margin: 15px; 
 }
 
 /* Footer */
 
 footer {
   background: linear-gradient(20deg, rgb(107 185 215), rgb(255 255 255));
-  box-shadow: 0px 1px 7px 2px #000000
+  box-shadow: 0px 1px 7px 2px #000000;
 }
 
 footer p {
   font-style: oblique;
   font-weight: bold;
-  margin-left: 10px
+  margin-left: 10px;
 }
 
-footer a { margin-bottom: auto }
+footer a { margin-bottom: auto; }
 
 footer img { 
   width: 88px;
   height: 31px;
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 /* Home */
 
 #home h1 { 
   font-size: 3.5em;
-  margin-top: -100%
+  margin-top: -100%;
 }
 
 #home #div1 { 
@@ -140,50 +140,50 @@ footer img {
   color: white;
   padding-top: 117%; 
   background-repeat: no-repeat;
-  margin-top: 142.44px
+  margin-top: 142.44px;
 }
 
-#home h2 { font-size: 1.8em }
+#home h2 { font-size: 1.8em; }
 
 #home #div1 .subtitles { 
   animation: fadeIn 4s;
   border-top: solid 2px;
   margin-left: 10%;
-  margin-right: 10%
+  margin-right: 10%;
 }
 
 #home .subtitles { 
   text-align: center;
   font-size: 1.3em;
   font-style: italic;
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 #home .div2 {
   overflow: hidden;
   margin: 10px;
-  border-radius: 24px
+  border-radius: 24px;
 }
 
 #home .div2 img {
   max-width: 100%;
   display: block;
   margin: auto;
-  border-radius: 24px
+  border-radius: 24px;
 }
 
 #home .div2 img:hover { 
   transition: 1s;
-  transform: scale(1.1) 
+  transform: scale(1.1); 
 }
 
 /* Personaggi */
 
-#personaggi h1 { margin-top: -40% }
+#personaggi h1 { margin-top: -40%; }
 
 #personaggi #div3 span {
   border-left: 3px solid;
-  border-bottom: 3px solid
+  border-bottom: 3px solid;
 }
 
 #personaggi #div3 { 
@@ -194,23 +194,23 @@ footer img {
   background-repeat: no-repeat;
   margin-top: 142.44px;
   background-attachment: fixed;
-  background-position: top right
+  background-position: top right;
 }
 
 #personaggi img {
   display: block;
   margin: auto;
-  max-width: 60%
+  max-width: 60%;
 }
 
 #personaggi #div5 {
   display: inline-flex;
   margin: 20px auto 20px auto;
   width: 100%;
-  justify-content: center
+  justify-content: center;
 }
 
-#personaggi #avanti:hover, #personaggi #indietro:hover, #personaggi #startStop:hover { background-color: rgb(226, 219, 219) }
+#personaggi #avanti:hover, #personaggi #indietro:hover, #personaggi #startStop:hover { background-color: rgb(226, 219, 219); }
 
 #personaggi #indietro {
   margin-left: 2%;
@@ -219,7 +219,7 @@ footer img {
   font-weight: bold;
   box-shadow: -1px 1px 0px 0px grey;
   font-size: 1.1em;
-  width: 40px
+  width: 40px;
 }
 
 #personaggi #startStop {
@@ -231,7 +231,7 @@ footer img {
   background: white;
   box-shadow: 0px 0px 3px 0px grey;
   font-size: 1.1em;
-  width: 300px
+  width: 300px;
 }
 
 #personaggi #avanti {
@@ -241,7 +241,7 @@ footer img {
   background: white;
   box-shadow: 1px 1px 0px 0px grey;
   font-size: 1.1em;
-  width: 40px
+  width: 40px;
 }
 
 /* Luoghi */
@@ -254,14 +254,14 @@ footer img {
   background-repeat: no-repeat;
   margin-top: 142.44px;
   background-attachment: fixed;
-  background-position: center
+  background-position: center;
 }
 
-#luoghi h1 { margin-top: -40% }
+#luoghi h1 { margin-top: -40%; }
 
 #luoghi #div7 span {
   border-right: 3px solid;
-  border-bottom: 3px solid
+  border-bottom: 3px solid;
 }
 
 #luoghi #ambienti { 
@@ -269,7 +269,7 @@ footer img {
   margin: auto;
   box-shadow: 1px 1px 8px 1px black;
   width: 95%;
-  max-width: 100%
+  max-width: 100%;
 }
 
 @keyframes slideIn {
@@ -286,24 +286,24 @@ footer img {
 #luoghi #foto { 
   display: block;
   margin: auto;
-  text-align: center
+  text-align: center;
 }
 
 #luoghi #foto img { 
   max-width: 90%;
-  animation: slideIn 3s
+  animation: slideIn 3s;
 }
 
 #luoghi #foto img:hover { 
   transform: scale(1.1);
-  transition: 1s
+  transition: 1s;
 }
 
 /* About Me */
 
 #about h1 { 
   animation: trackingInContractFromBottom 2s;
-  margin-top: 192.44px 
+  margin-top: 192.44px;
 }
 
 @keyframes trackingInContractFromBottom {
@@ -327,7 +327,7 @@ footer img {
 #about #div9 {
   display: flex;
   width: 100%;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 #about img { 
@@ -335,160 +335,160 @@ footer img {
   box-shadow: 0px 0px 0px 5px #000000;
   border-radius: 2px;
   width: 80%;
-  max-width: 100%
+  max-width: 100%;
 }
 
 #about img:hover {
   transform: scale(1.1);
-  transition: 1s
+  transition: 1s;
 }
 
-#about span { text-align: center }
+#about span { text-align: center; }
 
-#about article:first-of-type { border-bottom: 6px double }
+#about article:first-of-type { border-bottom: 6px double; }
 
 #about blockquote { 
   font-weight: bold;
   font-style: oblique;
-  margin-bottom: 40px 
+  margin-bottom: 40px; 
 }
 
-#about p:last-of-type { margin-top: 40px }
+#about p:last-of-type { margin-top: 40px; }
 
-#about a:link { color: blue }
+#about a:link { color: blue; }
 
-#about a:visited { color: purple }
+#about a:visited { color: purple; }
 
-#about a:hover { color: darkred}
+#about a:hover { color: darkred; }
 
-#about a:active { color: red }
+#about a:active { color: red; }
 
 /* Media Queries */
 
 @media screen and (min-width: 480px) {
-  body { font-size: 17px }
+  body { font-size: 17px; }
   
   #home #div1, #personaggi #div3, #luoghi #div7 { margin-top: 150.75px }
 
-  #luoghi #foto img { max-width: 100% }
+  #luoghi #foto img { max-width: 100%; }
 
-  #about h1 { margin-top: 200.75px }
+  #about h1 { margin-top: 200.75px; }
 }
 
 @media screen and (min-width: 600px) {
-  body { font-size: 18px }
+  body { font-size: 18px; }
   
-  #home #div1, #personaggi #div3, #luoghi #div7 { margin-top: 164.8px }
+  #home #div1, #personaggi #div3, #luoghi #div7 { margin-top: 164.8px; }
 
-  #personaggi h1, #luoghi h1 { font-size: 2.5em }
+  #personaggi h1, #luoghi h1 { font-size: 2.5em; }
 
-  #about h1 { margin-top: 214.8px }
+  #about h1 { margin-top: 214.8px; }
 
-  #home img { width: 120% }
+  #home img { width: 120%; }
 
   header ul { 
     margin-top: 20px;
     margin-right: 10px;
-    display: flex
+    display: flex;
   }
 
-  header ul li { padding: 6px }
+  header ul li { padding: 6px; }
 
-  #about img { width: 40% }
+  #about img { width: 40%; }
 
   footer {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
   }
   
-  footer p { margin-left: 20px}
+  footer p { margin-left: 20px; }
 
   footer a { 
     margin-right: 60px;
-    margin-top: 18px
+    margin-top: 18px;
   }
 }
 
 @media screen and (min-width: 643px) {
-  #home #div1, #personaggi #div3, #luoghi #div7 { margin-top: 95px }
+  #home #div1, #personaggi #div3, #luoghi #div7 { margin-top: 95px; }
 
-  #about h1 { margin-top: 145px }
+  #about h1 { margin-top: 145px; }
 }
 
 @media screen and (min-width: 768px) {
-  body { font-size: 19px }
+  body { font-size: 19px; }
 
-  #luoghi #foto img { width: 40% }
+  #luoghi #foto img { width: 40%; }
 
-  footer a { margin-top: 19px }
+  footer a { margin-top: 19px; }
 }
 
 @media screen and (min-width: 900px) {
-  #about img { width: 25% }
+  #about img { width: 25%; }
 }
 
 @media screen and (min-width: 1024px) {
-  body { font-size: 20px }
+  body { font-size: 20px; }
 
   #home article:nth-of-type(1) div { 
     float: left;
-    margin-right: 20px
+    margin-right: 20px;
   }
   
-  #home article:nth-of-type(2) { clear: both }
+  #home article:nth-of-type(2) { clear: both; }
 
   #home article:nth-of-type(2) div { 
     float: right;
-    margin-left: 20px
+    margin-left: 20px;
   }
   
-  #personaggi h3 { margin-bottom: 8% }
+  #personaggi h3 { margin-bottom: 8%; }
 
   #personaggi #div4 { 
     float: left;
     width: 50%;
-    position: relative
+    position: relative;
   }
   
   #personaggi #div5 {
     position: absolute;
     top: -12%;
-    left: 50%
+    left: 50%;
   }
   
   #personaggi img { 
     max-width: 90%;
-    margin-bottom: 50px }
+    margin-bottom: 50px; }
 
   #personaggi #div6 {
     float: right;
-    width: 50%
+    width: 50%;
   }
   
-  footer { clear: both }
+  footer { clear: both; }
 
-  footer a { margin-top: 20px }
+  footer a { margin-top: 20px; }
 }
 
 @media screen and (min-width: 1200px) {
-  body { font-size: 21px }
+  body { font-size: 21px; }
 
   #luoghi #ambienti { 
     float: left;
     margin: 70px 10px;
-    width: 60%
+    width: 60%;
   }
 
   #luoghi #div8 { 
     float: right;
     width: 30%;
     margin-bottom: 20px;
-    margin-right: 40px
+    margin-right: 40px;
   }
   
-  #luoghi #foto img { width: 90% }
+  #luoghi #foto img { width: 90%; }
 
-  footer { clear: both }
+  footer { clear: both; }
   
   footer a { margin-top: 21px }
 }
