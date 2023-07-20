@@ -51,6 +51,7 @@
 /**/function gestoreClickAvanti() {
 /**/
 /**/  try {
+/**/      
 /**/    if (!automatico) {
 /**/      cambiaFoto(+1);
 /**/    }
